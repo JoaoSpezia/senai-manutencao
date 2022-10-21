@@ -31,7 +31,7 @@ CREATE TABLE `entregador` (
   `entreg_id` int(11) NOT NULL,
   `entreg_nome` varchar(50) DEFAULT NULL,
   `entreg_cpf` int(11) DEFAULT NULL,
-  `entreg_datanasc` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `entreg_datanasc` date NOT NULL,
   `entreg_email` varchar(50) DEFAULT NULL,
   `entreg_telefone` int(11) DEFAULT NULL,
   `entreg_senha` varchar(50) DEFAULT NULL,
